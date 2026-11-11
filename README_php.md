@@ -4,23 +4,9 @@
 |---|---|
 | **Mata Kuliah** | Pemrograman Web |
 | **Program Studi** | Teknik Informatika |
-| **Nama / NIM** | [isi nama] / [isi NIM] |
-| **Kelas** | [isi kelas] |
+| **Nama / NIM** | Alvin Al Aziz / 312510044 |
+| **Kelas** | I252A |
 | **Topik** | Sintaks PHP, variabel, function, form processing (GET dan POST), validasi, dan pengolahan data |
-
----
-
-## Daftar Isi
-
-1. [Tujuan Praktikum](#1-tujuan-praktikum)
-2. [Perangkat yang Digunakan](#2-perangkat-yang-digunakan)
-3. [Cara Menjalankan Server Lokal](#3-cara-menjalankan-server-lokal)
-4. [Struktur File](#4-struktur-file)
-5. [Langkah Kerja dan Ringkasan Hasil](#5-langkah-kerja-dan-ringkasan-hasil)
-6. [Mini Project — Formulir Data Mahasiswa](#6-mini-project--formulir-data-mahasiswa)
-7. [Kasus Uji Input](#7-kasus-uji-input)
-8. [Screenshot Hasil](#8-screenshot-hasil)
-9. [Kesimpulan](#9-kesimpulan)
 
 ---
 
@@ -37,12 +23,10 @@
 
 | Perangkat | Keterangan |
 |-----------|------------|
-| Laptop/PC | Sistem operasi [isi, mis. Windows 11] |
-| Web server lokal | XAMPP / Laragon (Apache + PHP) — [isi yang dipakai dan versinya] |
-| PHP | Versi [isi, mis. 8.2] |
+| Laptop/PC | Sistem operasi Windows 11 |
+| Web server lokal | XAMPP / Laragon (Apache + PHP) — Xampp Apache |
 | Editor kode | Visual Studio Code |
-| Browser | [isi, mis. Google Chrome] |
-| Git | Untuk mengunggah pekerjaan ke GitHub |
+| Browser | Google Chrome |
 
 ## 3. Cara Menjalankan Server Lokal
 
@@ -64,23 +48,11 @@
 2. Letakkan folder proyek di `C:\laragon\www\Lab7Web_PHP\`.
 3. Buka **http://localhost/Lab7Web_PHP/** (atau **http://lab7web_php.test** bila *auto virtual host* aktif).
 
-### Opsi C — Server bawaan PHP (tanpa XAMPP/Laragon)
-
-Jika PHP sudah terpasang dan dapat dipanggil dari terminal:
-
-```bash
-cd Lab7Web_PHP
-php -S localhost:8000
-```
-
-Lalu buka **http://localhost:8000/**. Hentikan server dengan `Ctrl + C`.
-
 ### Halaman yang tersedia
 
 | Halaman | Alamat |
 |---------|--------|
-| Menu utama | `http://localhost/Lab7Web_PHP/` |
-| Latihan 1 – 7 | `http://localhost/Lab7Web_PHP/latihan1.php` … `latihan7.php` |
+| Menu utama | `http://localhost/Lab7Web_PHP/`  |
 | Mini Project | `http://localhost/Lab7Web_PHP/mini-project/` |
 
 ## 4. Struktur File
@@ -88,27 +60,18 @@ Lalu buka **http://localhost:8000/**. Hentikan server dengan `Ctrl + C`.
 ```
 Lab7Web_PHP/
 ├── README.md
-├── index.php              # menu tautan ke seluruh latihan
+├── index_latihan.php      # project latihan php
 ├── style.css              # stylesheet bersama untuk semua halaman
-├── latihan1.php           # Menjalankan PHP
-├── latihan2.php           # Variabel, operator, percabangan
-├── latihan3.php           # Perulangan dan array
-├── latihan4.php           # Function
-├── latihan5.php           # Form dengan metode GET
-├── latihan6.php           # Form dengan metode POST
-├── latihan7.php           # Pengolahan data sederhana
 ├── mini-project/
-│   ├── index.php          # tampilan (HTML) mini project
-│   └── proses.php         # pemrosesan dan validasi data
-└── screenshots/           # bukti hasil setiap latihan
-```
+    ├── index.php          # tampilan (HTML) mini project
+    └── proses.php         # pemrosesan dan validasi data
 
 ## 5. Langkah Kerja dan Ringkasan Hasil
 
-### Latihan 1 — Menjalankan PHP (`latihan1.php`)
+### Latihan 1 — Menjalankan PHP
 Menampilkan teks dan waktu server dengan `echo` dan `date()`. Kode PHP ditulis di antara `<?php ... ?>`. Browser hanya menerima HTML hasil eksekusi, sehingga pada *View Page Source* tidak ada kode PHP. Waktu yang tampil berubah setiap halaman dimuat ulang karena diambil dari server.
 
-### Latihan 2 — Variabel, operator, dan percabangan (`latihan2.php`)
+### Latihan 2 — Variabel, operator, dan percabangan
 Menghitung nilai akhir dengan bobot **tugas 30%**, **UTS 30%**, dan **UAS 40%**, lalu menentukan predikat dengan `if / elseif / else`.
 
 | Tugas | UTS | UAS | Nilai Akhir | Predikat |
@@ -138,13 +101,6 @@ Form nama dan program studi dengan `method="POST"`. Pemrosesan hanya berjalan ji
 ### Latihan 7 — Pengolahan data sederhana (`latihan7.php`)
 Form nama barang, harga, dan jumlah. PHP memvalidasi input (`is_numeric()`, `ctype_digit()`, harga ≥ 0, jumlah ≥ 1), menghitung `subtotal = harga × jumlah`, dan menampilkan ringkasan transaksi dengan format Rupiah.
 
-| Barang | Harga | Jumlah | Hasil |
-|--------|------:|:------:|-------|
-| Pulpen | 2500 | 4 | Subtotal Rp10.000,00 |
-| Buku | 10500.50 | 3 | Subtotal Rp31.501,50 |
-| Buku | 5000 | 0 | Pesan kesalahan |
-| Buku | 5000 | -2 | Pesan kesalahan |
-| Buku | abc | 2 | Pesan kesalahan |
 
 ## 6. Mini Project — Formulir Data Mahasiswa
 
@@ -183,8 +139,9 @@ Aplikasi menerima **nama, NIM, program studi, semester, dan email** melalui meto
 ### Persiapan
 | Keterangan | Screenshot |
 |------------|------------|
-| Apache berjalan | ![Apache berjalan](screenshots/apache-running.png) |
-| Struktur folder proyek | ![Struktur folder](screenshots/struktur-folder.png) |
+| Apache berjalan | ![Apache berjalan]<img width="940" height="598" alt="image" src="https://github.com/user-attachments/assets/1ff9fa29-22b2-4dd2-a91d-debd2f0ccfdc" /> |
+| Struktur folder proyek | ![Struktur folder](<img width="940" height="257" alt="image" src="https://github.com/user-attachments/assets/ad3ec744-6624-489b-9288-a830b83436ff" />
+) |
 
 ### Latihan
 | Latihan | Keterangan | Screenshot |
