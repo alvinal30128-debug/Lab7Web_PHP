@@ -65,6 +65,7 @@ Lab7Web_PHP/
 ├── mini-project/
     ├── index.php          # tampilan (HTML) mini project
     └── proses.php         # pemrosesan dan validasi data
+```
 
 ## 5. Langkah Kerja dan Ringkasan Hasil
 
@@ -139,36 +140,48 @@ Aplikasi menerima **nama, NIM, program studi, semester, dan email** melalui meto
 ### Persiapan
 | Keterangan | Screenshot |
 |------------|------------|
-| Apache berjalan | ![Apache berjalan]<img width="940" height="598" alt="image" src="https://github.com/user-attachments/assets/1ff9fa29-22b2-4dd2-a91d-debd2f0ccfdc" /> |
+| Apache berjalan | ![Apache berjalan] (<img width="940" height="598" alt="image" src="https://github.com/user-attachments/assets/1ff9fa29-22b2-4dd2-a91d-debd2f0ccfdc" /> 
+) |
 | Struktur folder proyek | ![Struktur folder](<img width="940" height="257" alt="image" src="https://github.com/user-attachments/assets/ad3ec744-6624-489b-9288-a830b83436ff" />
 ) |
 
 ### Latihan
 | Latihan | Keterangan | Screenshot |
 |---------|------------|------------|
-| 1 | Output halaman | ![Latihan 1](screenshots/latihan1.png) |
-| 1 | View Page Source (tanpa kode PHP) | ![Latihan 1 source](screenshots/latihan1-source.png) |
-| 2 | Nilai awal | ![Latihan 2 awal](screenshots/latihan2-awal.png) |
-| 2 | Setelah nilai diubah | ![Latihan 2 ubah](screenshots/latihan2-ubah.png) |
-| 3 | Daftar mahasiswa | ![Latihan 3](screenshots/latihan3.png) |
-| 4 | Hasil function | ![Latihan 4](screenshots/latihan4.png) |
-| 5 | Form sebelum dikirim | ![Latihan 5 awal](screenshots/latihan5-awal.png) |
-| 5 | Setelah dikirim (URL berubah) | ![Latihan 5 hasil](screenshots/latihan5-hasil.png) |
-| 6 | Data lengkap | ![Latihan 6 lengkap](screenshots/latihan6-lengkap.png) |
-| 6 | Input kosong | ![Latihan 6 kosong](screenshots/latihan6-kosong.png) |
-| 6 | Tag HTML ditampilkan aman | ![Latihan 6 aman](screenshots/latihan6-aman.png) |
-| 7 | Data valid | ![Latihan 7 valid](screenshots/latihan7-valid.png) |
-| 7 | Harga desimal | ![Latihan 7 desimal](screenshots/latihan7-desimal.png) |
-| 7 | Data tidak valid | ![Latihan 7 error](screenshots/latihan7-error.png) |
+| 1 | Output halaman | ![Latihan 1](<img width="940" height="288" alt="image" src="https://github.com/user-attachments/assets/010aa2d9-511c-472b-9a9c-af0c89d87786" />
+) |
+| 2 | Nilai awal | ![Latihan 2 awal](<img width="940" height="253" alt="image" src="https://github.com/user-attachments/assets/8f006b21-ac0c-4694-97aa-bbefd2bdb175" />
+) |
+| 2 | Setelah nilai diubah | ![Latihan 2 ubah](<img width="940" height="263" alt="image" src="https://github.com/user-attachments/assets/8f3dca5e-4e13-4011-9848-e622e7d2ea5e" />
+) |
+| 3 | Daftar mahasiswa | ![Latihan 3](<img width="940" height="290" alt="image" src="https://github.com/user-attachments/assets/78b309ca-a195-4e72-afa3-031a714d1d40" />
+) |
+| 4 | Hasil function | ![Latihan 4](<img width="940" height="325" alt="image" src="https://github.com/user-attachments/assets/459ad47b-9a3c-4c28-a55e-ea7c9fb9cfb0" />
+) |
+| 5 | Form sebelum dikirim | ![Latihan 5 awal](<img width="589" height="479" alt="image" src="https://github.com/user-attachments/assets/54c33883-30a8-482c-8089-bcb5614823f3" />
+) |
+| 5 | Setelah dikirim (URL berubah) | ![Latihan 5 hasil](<img width="940" height="406" alt="image" src="https://github.com/user-attachments/assets/65b122df-0e1a-438e-9c37-77962c1dc36a" />
+) |
+| 6 | Data lengkap | ![Latihan 6 lengkap](<img width="940" height="472" alt="image" src="https://github.com/user-attachments/assets/e6223780-d01f-416e-a24a-6a2288a38665" />
+) |
+| 6 | Input kosong | ![Latihan 6 kosong](<img width="940" height="136" alt="image" src="https://github.com/user-attachments/assets/1b531e6d-5b60-4a4c-be5d-eb7ed2cc3d9b" />
+) |
+| 7 | Data valid | ![Latihan 7 valid](<img width="940" height="214" alt="image" src="https://github.com/user-attachments/assets/4dc15044-69e6-4704-a6bb-4f781b31d81c" />
+) |
+| 7 | Data tidak valid | ![Latihan 7 error](<img width="940" height="116" alt="image" src="https://github.com/user-attachments/assets/7e0bec3c-df05-4c42-95b6-f59cf966a2e7" />
+) |
 
 ### Mini Project
 | Keterangan | Screenshot |
 |------------|------------|
-| Tampilan awal form | ![Mini awal](screenshots/mini-awal.png) |
-| Tidak valid — semua kolom kosong | ![Mini error kosong](screenshots/mini-error-kosong.png) |
-| Tidak valid — email dan semester salah | ![Mini error email](screenshots/mini-error-email.png) |
-| Valid — ringkasan data | ![Mini valid](screenshots/mini-valid.png) |
-| Tag HTML ditampilkan aman | ![Mini aman](screenshots/mini-aman.png) |
+| Tampilan awal form | ![Mini awal](<img width="940" height="411" alt="image" src="https://github.com/user-attachments/assets/de17508e-c4f7-4ed5-831c-8f0a2d75faee" />
+) |
+| Tidak valid — semua kolom kosong | ![Mini error kosong](<img width="940" height="324" alt="image" src="https://github.com/user-attachments/assets/88178678-1257-4d25-91a5-18d7cec2e75d" />
+) |
+| Tidak valid — email dan semester salah | ![Mini error email](<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/e07d2ea3-71f6-4d6a-877f-3c6a9d057142" />
+) |
+| Valid — ringkasan data | ![Mini valid](<img width="940" height="384" alt="image" src="https://github.com/user-attachments/assets/38186b90-e5aa-4eb9-aaa1-aaf69cc2759f" />
+) |
 
 ## 9. Kesimpulan
 
